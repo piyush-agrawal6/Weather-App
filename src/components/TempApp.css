@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 380px;
+  background-image: url("https://images.unsplash.com/photo-1619453986741-43fe6066a86e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.inputData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 60%;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.location {
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 0 0;
+}
+.location i {
+  margin-right: 5px;
+}
+.temp {
+  font-size: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding-bottom: 0;
+}
+.temp-min-max {
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  font-weight: 500;
+}
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.pressure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.humidity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.sealevel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+}
